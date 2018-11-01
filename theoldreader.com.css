@@ -1,0 +1,229 @@
+/* START Content Header */
+
+.navbar-default .navbar-nav > .open > a, .dropdown .open {
+    background-color: #222 ;
+}
+
+.dropdown-menu>li>a {
+    color: #fff ;
+}
+
+.navbar-nav li a {
+    color: #ddd ;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #26687f ;
+}
+
+.navbar-default .navbar-nav > li > a.social:hover {
+    color: #da3f2d ;
+}
+
+nav.nav li.divider-vertical {
+    background-color: #222 ;
+}
+
+.form-search .btn {
+    background-color: transparent ;
+    background-image: url("http://theoldreader.com/assets/ico-search.png") ;
+    background-position: center center ;
+}
+
+/* START Top Search Bar */
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #444 ;
+    color: #fff ;
+    border-bottom-color: #000 ;
+    border-left-color: #000 ;
+    border-top-color: #000 ;
+    border-right-color: #000 ;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset ;
+}
+
+/* END Top Search Bar */
+
+/* END Content Header */
+
+/* START Both Columns */
+
+.well {
+    background-color: #222 ;
+    border: 1px solid #222 ;
+}
+
+.btn {
+    color: #ccc ;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75) ;
+    background-color: #222 ;
+    background-image: linear-gradient(to bottom, #444, #555) ;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 1px 2px rgba(0, 0, 0, 0.05) ;
+}
+
+.btn-danger {
+    background-color: #d9534f ;
+    background-image: none ;
+}
+
+/* END Both Columns */
+
+/* START Left Column */
+
+.reader .subscribe-button-container .bg {
+    background-color: #333 ;
+}
+
+/* START Add Subscription button*/
+
+.reader .subscribe-fixed-top .bg {
+    background: none repeat scroll 0 0 #333 ;
+}
+
+.subscribe .btn-primary {
+    border: 1px solid #191919 ;
+}
+
+/* END Add Subscription button */
+
+/* START Navs list */
+
+.nav-list li a {
+    color: #ccc ;
+}
+
+.nav-list li a:hover {
+    color: #26687f ;
+}
+
+.nav-list li.active a {
+    color: #26687f ;
+}
+
+.nav-list li.social.active a {
+    color: #da3f2d ;
+}
+
+.nav-list li.social.active a:hover {
+    color: #26687f ;
+}
+
+.nav-list li.nav-header a {
+    color: #666 ;
+}
+
+.nav-list li.nav-header a:hover {
+    color: #bbb ;
+}
+
+/* END Navs list */
+
+/* END Left Column */
+
+/* START Right Column */
+
+.loader {
+    background-color: #333 ;
+}
+
+.page-header {
+    border-bottom: 1px solid #222 ;
+}
+
+/* START Articles List */
+
+.reader .floating {
+    background: #333 ;
+}
+
+/* Note : Needs to be same as the body background color */
+
+.post h3 a {
+    color: #ccc ;
+}
+
+.label.label-transparent {
+    color: #999 ;
+}
+
+.post.unread {
+    border-left: 10px solid #26687f ;
+    padding-bottom: 0px ;
+    padding-left: 11px ;
+    padding-right: 10px ;
+    padding-top: 2px ;
+}
+
+.post.unread .content {
+    color: #888 ;
+}
+
+.post .content {
+    color: #ccc ;
+}
+
+.post blockquote {
+    background-color: #222 ;
+}
+
+img {
+    margin-bottom: 15px ;
+    margin-top: 5px ;
+}
+
+/* END Articles List */
+
+/* END Right column */
+
+/* START Top dropdown menu */
+
+legend {
+    color: #ddd ;
+}
+
+.dropdown-menu {
+    background-color: #252525 ;
+}
+
+/* END Top dropdown menu */
+
+/* START Alerts */
+
+.alert {
+    background-color: #26687f ;
+}
+
+.alert.alert-info {
+    color: #fff ;
+}
+
+.hero-unit {
+    background-color: #222 ;
+}
+
+/* END Alerts */
+
+
+/* START Later modifications */
+
+body {
+    background-color: #333;
+    color: #999999 ;
+    font-family: Roboto ;
+}
+
+.home-page dl dd p a {
+    color: #ccc ;
+}
+
+.navbar-fixed-top {
+    border-bottom-color: #000 ;
+    background-color: #252525 ;
+}
+
+.post {
+    padding-bottom: 0px ;
+    padding-left: 20px ;
+    padding-right: 10px ;
+    padding-top: 2px ;
+}
