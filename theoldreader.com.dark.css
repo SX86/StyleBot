@@ -151,7 +151,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
     padding-bottom: 0px ;
     padding-left: 11px ;
     padding-right: 10px ;
-    padding-top: 2px ;
+    padding-top: 6px ;
 }
 
 .post.unread .content {
@@ -203,7 +203,6 @@ legend {
 
 /* END Alerts */
 
-
 /* START Later modifications */
 
 body {
@@ -225,5 +224,14 @@ body {
     padding-bottom: 0px ;
     padding-left: 20px ;
     padding-right: 10px ;
-    padding-top: 2px ;
+    padding-top: 4px ;
 }
+
+div.content-body p a {
+    color: #7ca4b2;
+}
+
+div.content-body ul li a {
+    color: #7ca4b2;
+}
+
