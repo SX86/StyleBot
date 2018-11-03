@@ -1,0 +1,206 @@
+div.slide {
+    background-color: #121212;
+    color: #ffffff;
+    border-color: #121212;
+}
+
+a.label.label-feed {
+    background-color: #0069c0;
+}
+
+a.label.label-social {
+    background-color: #c62828;
+}
+
+div.main-container {
+    background-color: #121212;
+    font-family: Open Sans;
+}
+
+div.collapse.navbar-collapse {
+    background-color: #232323;
+}
+
+div.col-md-9 {
+    background-color: #232323;
+}
+
+div.col-md-3 {
+    background-color: #232323;
+    border-color: #121212;
+}
+
+div.row {
+    background-color: #3c3c3c;
+    border-color: #121212;
+}
+
+div.well.sidebar-nav {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-color: #121212;
+}
+
+li.active a {
+    color: #6ec6ff;
+}
+
+#unread_count a {
+    color: #ffffff;
+}
+
+#sidebar-starred a {
+    color: #ffffff;
+}
+
+li.social a {
+    color: #ffffff;
+}
+
+li.sort-item a strong {
+    color: #ffffff;
+}
+
+li.nav-header.dropdown a span {
+    color: #2196f3;
+}
+
+span.badge {
+    color: #ffffff;
+    background-color: #0069c0;
+}
+
+div.bg {
+    background-color: #121212;
+}
+
+dd p a {
+    color: #ffffff;
+}
+
+p strong a {
+    color: #ffffff;
+}
+
+h1.username {
+    color: #ffffff;
+}
+
+div.page-header div {
+    color: #ffffff;
+}
+
+div.floating {
+    background-color: #121212;
+}
+
+div.well.clearfix.post.unread.listview {
+    background-color: #343434;
+}
+
+div div p {
+    color: #ffffff;
+}
+
+div.list-post h3 a {
+    color: #ffffff;
+}
+
+div div h4 {
+    color: #ffffff;
+}
+
+div div ul {
+    color: #ffffff;
+}
+
+ul li a {
+    color: #ffffff;
+}
+
+div p a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+div ul li {
+    color: #ffffff;
+}
+
+span.label.label-transparent.pull-right {
+    color: #dedede;
+}
+
+input.form-control.search-query {
+    background-color: #606060;
+    color: #ffffff;
+}
+
+div.hero-unit.no-posts.posts-filler span {
+    background-color: #606060;
+}
+
+div.hero-unit.no-posts.posts-filler span a {
+    color: #ffffff;
+}
+
+a.btn {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+button.btn {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+a {
+    font-family: Open Sans;
+}
+
+ul.dropdown-menu {
+    background-color: #242424;
+}
+
+div.col-md-7 {
+    background-color: #121212;
+}
+
+div.col-md-12 {
+    background-color: #121212;
+}
+
+div.row.home-page {
+    background-color: #121212;
+}
+
+div.well.clearfix.post.listview {
+    background-color: #343434;
+    color: #ffffff;
+    border-color: hsl(206.1, 79.3%, 52.7%);
+}
+
+div.page-header {
+    border-color: #121212;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    border-color: #121212;
+}
+
+a.btn.btn-primary.btn-lg.dropdown-toggle {
+    color: #000000;
+}
+
+span.badge.badge-info {
+    color: #ffffff;
+}
+
+span.label.label-transparent {
+    color: #cccccc;
+}
+
+div.slider {
+    background-color: #666666;
+}
+
