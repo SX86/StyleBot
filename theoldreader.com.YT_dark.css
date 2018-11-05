@@ -1,17 +1,9 @@
 .alert {
-    background-color: #26687f ;
+    background-color: #3ea6ff ;
 }
 
 .alert.alert-info {
     color: #fff ;
-}
-
-.btn {
-    background-color: #222 ;
-    background-image: linear-gradient(to bottom, #444, #555) ;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 1px 2px rgba(0, 0, 0, 0.05) ;
-    color: #ccc ;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75) ;
 }
 
 .btn-danger {
@@ -50,11 +42,11 @@
 }
 
 .nav-list li a:hover {
-    color: #26687f ;
+    color: #3ea6ff ;
 }
 
 .nav-list li.active a {
-    color: #26687f ;
+    color: #3ea6ff ;
 }
 
 .nav-list li.nav-header a:hover {
@@ -66,7 +58,7 @@
 }
 
 .nav-list li.social.active a:hover {
-    color: #26687f ;
+    color: #3ea6ff ;
 }
 
 .navbar-default .navbar-nav > .open > a, .dropdown .open {
@@ -78,7 +70,7 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #26687f ;
+    color: #3ea6ff ;
 }
 
 .navbar-fixed-top {
@@ -107,9 +99,9 @@
 }
 
 .post.unread {
-    border-left: 10px solid #26687f ;
+    border-left: 4px solid #3ea6ff ;
     padding-bottom: 0px ;
-    padding-left: 11px ;
+    padding-left: 10px ;
     padding-right: 10px ;
     padding-top: 6px ;
 }
@@ -126,10 +118,6 @@
     background: none repeat scroll 0 0 #333 ;
 }
 
-.subscribe .btn-primary {
-    border: 1px solid #191919 ;
-}
-
 .well {
     background-color: #1c1c1c;
     border: 1px solid #1c1c1c ;
@@ -142,11 +130,11 @@ body {
 }
 
 div.content-body p a {
-    color: #7ca4b2;
+    color: #3ea6ff;
 }
 
 div.content-body ul li a {
-    color: #7ca4b2;
+    color: #3ea6ff;
 }
 
 img {
@@ -189,5 +177,117 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 .hero-unit {
     background-color: #121212 ;
+}
+
+.text-primary {
+    color: #3ea6ff
+;
+}
+
+.btn-primary.active {
+    background-color: #3ea6ff;
+    border-color: #20586b;
+}
+
+.badge {
+    background-color: #232323;
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.badge.badge-info {
+    background-color: #252a3a;
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #3ea6ff;
+    color: #fff;
+}
+
+.label.label-feed {
+    background-color: #252a3a;
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #3ea6ff;
+    color: #fff;
+}
+
+.label.label-default {
+    background-color: #232323;
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.label.label-social {
+    background-color: #232323;
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #ff2400;
+    color: #fff;
+}
+
+.btn {
+    background-color: #222 ;
+    undefined: undefined;
+    color: #ccc ;
+}
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3ea6ff;
+}
+
+.btn.btn-default.btn-xs {
+    background-color: #232323;
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn.btn-default.btn-sm {
+    background-color: #252a3a;
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #3ea6ff;
+    color: #fff;
+}
+
+.subscribe .btn-primary {
+    background-color: #323232;
+    border-style: default;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: #ff2400;
+    box-shadow: none;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #323232, #323232);
 }
 
