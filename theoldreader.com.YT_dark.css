@@ -1,206 +1,193 @@
-div.slide {
+.alert {
+    background-color: #26687f ;
+}
+
+.alert.alert-info {
+    color: #fff ;
+}
+
+.btn {
+    background-color: #222 ;
+    background-image: linear-gradient(to bottom, #444, #555) ;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 1px 2px rgba(0, 0, 0, 0.05) ;
+    color: #ccc ;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75) ;
+}
+
+.btn-danger {
+    background-color: #d9534f ;
+    background-image: none ;
+}
+
+.dropdown-menu {
+    background-color: #121212 ;
+}
+
+.dropdown-menu>li>a {
+    color: #fff ;
+}
+
+.form-search .btn {
+    background-color: transparent ;
+    background-image: url("http://theoldreader.com/assets/ico-search.png") ;
+    background-position: center center ;
+}
+
+.home-page dl dd p a {
+    color: #ccc ;
+}
+
+.label.label-transparent {
+    color: #999 ;
+}
+
+.loader {
+    background-color: #333 ;
+}
+
+.nav-list li a {
+    color: #ccc ;
+}
+
+.nav-list li a:hover {
+    color: #26687f ;
+}
+
+.nav-list li.active a {
+    color: #26687f ;
+}
+
+.nav-list li.nav-header a:hover {
+    color: #bbb ;
+}
+
+.nav-list li.social.active a {
+    color: #da3f2d ;
+}
+
+.nav-list li.social.active a:hover {
+    color: #26687f ;
+}
+
+.navbar-default .navbar-nav > .open > a, .dropdown .open {
+    background-color: #222 ;
+}
+
+.navbar-default .navbar-nav > li > a.social:hover {
+    color: #da3f2d ;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #26687f ;
+}
+
+.navbar-fixed-top {
+    background-color: #232323;
+    border-bottom-color: #000 ;
+}
+
+.navbar-nav li a {
+    color: #ddd ;
+}
+
+.page-header {
+    border-bottom: 1px solid #222 ;
+}
+
+.post .content {
+    color: #ccc ;
+}
+
+.post blockquote {
+    background-color: #222 ;
+}
+
+.post h3 a {
+    color: #ccc ;
+}
+
+.post.unread {
+    border-left: 10px solid #26687f ;
+    padding-bottom: 0px ;
+    padding-left: 11px ;
+    padding-right: 10px ;
+    padding-top: 6px ;
+}
+
+.post.unread .content {
+    color: #888 ;
+}
+
+.reader .subscribe-button-container .bg {
     background-color: #121212;
-    color: #ffffff;
-    border-color: #121212;
 }
 
-a.label.label-feed {
-    background-color: #0069c0;
+.reader .subscribe-fixed-top .bg {
+    background: none repeat scroll 0 0 #333 ;
 }
 
-a.label.label-social {
-    background-color: #c62828;
+.subscribe .btn-primary {
+    border: 1px solid #191919 ;
 }
 
-div.main-container {
-    background-color: #121212;
-    font-family: Open Sans;
-}
-
-div.collapse.navbar-collapse {
-    background-color: #232323;
-}
-
-div.col-md-9 {
-    background-color: #232323;
-}
-
-div.col-md-3 {
-    background-color: #232323;
-    border-color: #121212;
-}
-
-div.row {
-    background-color: #3c3c3c;
-    border-color: #121212;
-}
-
-div.well.sidebar-nav {
+.well {
     background-color: #1c1c1c;
-    color: #ffffff;
-    border-color: #121212;
+    border: 1px solid #1c1c1c ;
 }
 
-li.active a {
-    color: #6ec6ff;
-}
-
-#unread_count a {
-    color: #ffffff;
-}
-
-#sidebar-starred a {
-    color: #ffffff;
-}
-
-li.social a {
-    color: #ffffff;
-}
-
-li.sort-item a strong {
-    color: #ffffff;
-}
-
-li.nav-header.dropdown a span {
-    color: #2196f3;
-}
-
-span.badge {
-    color: #ffffff;
-    background-color: #0069c0;
-}
-
-div.bg {
+body {
     background-color: #121212;
+    color: #999999 ;
+    font-family: Roboto ;
 }
 
-dd p a {
-    color: #ffffff;
+div.content-body p a {
+    color: #7ca4b2;
 }
 
-p strong a {
-    color: #ffffff;
+div.content-body ul li a {
+    color: #7ca4b2;
 }
 
-h1.username {
-    color: #ffffff;
+img {
+    margin-bottom: 15px ;
+    margin-top: 5px ;
 }
 
-div.page-header div {
-    color: #ffffff;
+legend {
+    color: #ddd ;
 }
 
-div.floating {
-    background-color: #121212;
+nav.nav li.divider-vertical {
+    background-color: #222 ;
 }
 
-div.well.clearfix.post.unread.listview {
-    background-color: #343434;
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #444 ;
+    border-bottom-color: #000 ;
+    border-left-color: #000 ;
+    border-right-color: #000 ;
+    border-top-color: #000 ;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset ;
+    color: #fff ;
 }
 
-div div p {
-    color: #ffffff;
+.reader .floating {
+    background: #121212 ;
 }
 
-div.list-post h3 a {
-    color: #ffffff;
+.post {
+    padding-bottom: 0 ;
+    padding-left: 20 px;
+    padding-right: 10 px;
+    padding-top: 4 px;
 }
 
-div div h4 {
-    color: #ffffff;
+.nav-list li.nav-header a {
+    color: #666 ;
 }
 
-div div ul {
-    color: #ffffff;
-}
-
-ul li a {
-    color: #ffffff;
-}
-
-div p a {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-div ul li {
-    color: #ffffff;
-}
-
-span.label.label-transparent.pull-right {
-    color: #dedede;
-}
-
-input.form-control.search-query {
-    background-color: #606060;
-    color: #ffffff;
-}
-
-div.hero-unit.no-posts.posts-filler span {
-    background-color: #606060;
-}
-
-div.hero-unit.no-posts.posts-filler span a {
-    color: #ffffff;
-}
-
-a.btn {
-    background-color: #212121;
-    color: #ffffff;
-}
-
-button.btn {
-    background-color: #212121;
-    color: #ffffff;
-}
-
-a {
-    font-family: Open Sans;
-}
-
-ul.dropdown-menu {
-    background-color: #242424;
-}
-
-div.col-md-7 {
-    background-color: #121212;
-}
-
-div.col-md-12 {
-    background-color: #121212;
-}
-
-div.row.home-page {
-    background-color: #121212;
-}
-
-div.well.clearfix.post.listview {
-    background-color: #343434;
-    color: #ffffff;
-    border-color: hsl(206.1, 79.3%, 52.7%);
-}
-
-div.page-header {
-    border-color: #121212;
-}
-
-nav.navbar.navbar-default.navbar-fixed-top {
-    border-color: #121212;
-}
-
-a.btn.btn-primary.btn-lg.dropdown-toggle {
-    color: #000000;
-}
-
-span.badge.badge-info {
-    color: #ffffff;
-}
-
-span.label.label-transparent {
-    color: #cccccc;
-}
-
-div.slider {
-    background-color: #666666;
+.hero-unit {
+    background-color: #121212 ;
 }
 
