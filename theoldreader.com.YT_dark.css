@@ -6,9 +6,64 @@
     color: #fff ;
 }
 
+.badge {
+    background-color: #232323;
+    border-bottom-width: 1px;
+    border-color: #fff;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    color: #fff;
+}
+
+.badge.badge-info {
+    background-color: #252a3a;
+    border-bottom-width: 1px;
+    border-color: #3ea6ff;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    color: #fff;
+}
+
+.btn {
+    background-color: #222 ;
+    color: #ccc ;
+    undefined: undefined;
+}
+
 .btn-danger {
     background-color: #d9534f ;
     background-image: none ;
+}
+
+.btn-primary.active {
+    background-color: #3ea6ff;
+    border-color: #20586b;
+}
+
+.btn.btn-default.btn-sm {
+    background-color: #252a3a;
+    border-bottom-width: 1px;
+    border-color: #3ea6ff;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    color: #fff;
+}
+
+.btn.btn-default.btn-xs {
+    background-color: #232323;
+    border-bottom-width: 1px;
+    border-color: #fff;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    color: #fff;
 }
 
 .dropdown-menu {
@@ -19,14 +74,61 @@
     color: #fff ;
 }
 
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
+    background-color: #3ea6ff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.enclosure a {
+    color: #666;
+}
+
 .form-search .btn {
     background-color: transparent ;
     background-image: url("http://theoldreader.com/assets/ico-search.png") ;
     background-position: center center ;
 }
 
+.hero-unit {
+    background-color: #121212 ;
+}
+
 .home-page dl dd p a {
     color: #ccc ;
+}
+
+.label.label-default {
+    background-color: #232323;
+    border-bottom-width: 1px;
+    border-color: #fff;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    color: #fff;
+}
+
+.label.label-feed {
+    background-color: #252a3a;
+    border-bottom-width: 1px;
+    border-color: #3ea6ff;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    color: #fff;
+}
+
+.label.label-social {
+    background-color: #232323;
+    border-bottom-width: 1px;
+    border-color: #ff2400;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    color: #fff;
 }
 
 .label.label-transparent {
@@ -47,6 +149,15 @@
 
 .nav-list li.active a {
     color: #3ea6ff ;
+}
+
+.nav-list li.active a:not(.fa):before, .nav-list li.active a:hover:not(.fa):before, .nav-list li.active a:focus:not(.fa):before {
+    border-left: 3px solid #FF2200
+;
+}
+
+.nav-list li.nav-header a {
+    color: #666 ;
 }
 
 .nav-list li.nav-header a:hover {
@@ -86,16 +197,32 @@
     border-bottom: 1px solid #222 ;
 }
 
+.post {
+    color: #ccc;
+    padding-bottom: 0 ;
+    padding-left: 20 px;
+    padding-right: 10 px;
+    padding-top: 4 px;
+}
+
 .post .content {
     color: #ccc ;
 }
 
 .post blockquote {
-    background-color: #222 ;
+    background-color: #323232 ;
+    font-style: italic;
+    padding-bottom: 1px;
+    padding-top: 8px;
 }
 
 .post h3 a {
     color: #ccc ;
+}
+
+.post hr {
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .post.unread {
@@ -110,6 +237,10 @@
     color: #888 ;
 }
 
+.reader .floating {
+    background: #121212 ;
+}
+
 .reader .subscribe-button-container .bg {
     background-color: #121212;
 }
@@ -118,9 +249,38 @@
     background: none repeat scroll 0 0 #333 ;
 }
 
+.subscribe .btn-primary {
+    background-color: #323232;
+    background-image: linear-gradient(to bottom, #323232, #323232);
+    border-bottom-width: 1px;
+    border-color: #ff2400;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: default;
+    border-top-width: 1px;
+    box-shadow: none;
+    color: #fff;
+}
+
+.text-primary {
+    color: #3ea6ff
+;
+}
+
 .well {
     background-color: #1c1c1c;
     border: 1px solid #1c1c1c ;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    /* remove scrollbar space */
+    /* optional: just make scrollbar invisible */
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF2200;
 }
 
 body {
@@ -129,12 +289,19 @@ body {
     font-family: Roboto ;
 }
 
+/* optional: show position indicator in red */
+
 div.content-body p a {
     color: #3ea6ff;
 }
 
 div.content-body ul li a {
     color: #3ea6ff;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 img {
@@ -158,136 +325,5 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
     border-top-color: #000 ;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset ;
     color: #fff ;
-}
-
-.reader .floating {
-    background: #121212 ;
-}
-
-.post {
-    padding-bottom: 0 ;
-    padding-left: 20 px;
-    padding-right: 10 px;
-    padding-top: 4 px;
-}
-
-.nav-list li.nav-header a {
-    color: #666 ;
-}
-
-.hero-unit {
-    background-color: #121212 ;
-}
-
-.text-primary {
-    color: #3ea6ff
-;
-}
-
-.btn-primary.active {
-    background-color: #3ea6ff;
-    border-color: #20586b;
-}
-
-.badge {
-    background-color: #232323;
-    border-style: solid;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #fff;
-    color: #fff;
-}
-
-.badge.badge-info {
-    background-color: #252a3a;
-    border-style: solid;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #3ea6ff;
-    color: #fff;
-}
-
-.label.label-feed {
-    background-color: #252a3a;
-    border-style: solid;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #3ea6ff;
-    color: #fff;
-}
-
-.label.label-default {
-    background-color: #232323;
-    border-style: solid;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #fff;
-    color: #fff;
-}
-
-.label.label-social {
-    background-color: #232323;
-    border-style: solid;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #ff2400;
-    color: #fff;
-}
-
-.btn {
-    background-color: #222 ;
-    undefined: undefined;
-    color: #ccc ;
-}
-
-.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
-    text-decoration: none;
-    color: #fff;
-    background-color: #3ea6ff;
-}
-
-.btn.btn-default.btn-xs {
-    background-color: #232323;
-    border-style: solid;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #fff;
-    color: #fff;
-}
-
-.btn.btn-default.btn-sm {
-    background-color: #252a3a;
-    border-style: solid;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #3ea6ff;
-    color: #fff;
-}
-
-.subscribe .btn-primary {
-    background-color: #323232;
-    border-style: default;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #ff2400;
-    box-shadow: none;
-    color: #fff;
-    background-image: linear-gradient(to bottom, #323232, #323232);
 }
 
