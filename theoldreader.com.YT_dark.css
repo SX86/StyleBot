@@ -238,7 +238,7 @@
 }
 
 .reader .floating {
-    background: #121212 ;
+    background-color: #121212;
 }
 
 .reader .subscribe-button-container .bg {
@@ -290,6 +290,10 @@ body {
 }
 
 /* optional: show position indicator in red */
+
+div.content-body a {
+    color: #3ea6ff;
+}
 
 div.content-body p a {
     color: #3ea6ff;
